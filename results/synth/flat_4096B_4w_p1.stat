@@ -1,0 +1,45 @@
+
+23. Printing statistics.
+
+=== cache_top ===
+
+   Number of wires:             126256
+   Number of wire bits:         162062
+   Number of public wires:        1266
+   Number of public wire bits:   36760
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:             125094
+     AND2_X1                       346
+     AND3_X1                        92
+     AND4_X1                        64
+     AOI211_X1                       9
+     AOI21_X1                     2277
+     AOI221_X1                      29
+     AOI222_X1                       7
+     AOI22_X1                     3803
+     BUF_X1                       4068
+     CLKBUF_X1                    5460
+     DFF_X1                      36478
+     INV_X1                         89
+     MUX2_X1                     64539
+     NAND2_X1                     1936
+     NAND3_X1                      193
+     NAND4_X1                       72
+     NOR2_X1                      2851
+     NOR3_X1                      1433
+     NOR4_X1                       368
+     OAI211_X1                      40
+     OAI21_X1                      282
+     OAI221_X1                      41
+     OAI22_X1                      101
+     OAI33_X1                        2
+     OR2_X1                        164
+     OR3_X1                         50
+     OR4_X1                         91
+     XNOR2_X1                       32
+     XOR2_X1                       177
+
+   Chip area for module '\cache_top': 308334.166000
+

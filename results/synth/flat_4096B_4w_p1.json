@@ -1,0 +1,19 @@
+{
+ "total": 308334.166,
+ "per_instance": {
+  "cache_top": 308334.166
+ },
+ "mult": {},
+ "contrib": {
+  "cache_top": 308334.166
+ },
+ "cells": 125094,
+ "flops": 36478,
+ "delay_ps": 1448.29,
+ "tag": "flat_4096B_4w_p1",
+ "cache": 4096,
+ "ways": 4,
+ "adaptive": 0,
+ "flat": true,
+ "secs": 130
+}

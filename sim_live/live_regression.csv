@@ -1,0 +1,23 @@
+category,test,status,checks
+module,address_decoder,PASS,12049
+module,hit_miss_logic,PASS,6676
+module,arrays,PASS,34835
+module,random_replacement,PASS,131078
+module,lru_controller,PASS,96017
+module,plru_controller,PASS,8011
+module,replacement_controller,PASS,27
+module,perf_monitor,PASS,11
+module,memory_interface,PASS,41
+module,adaptive_controller,PASS,40
+directed,cache_directed 2-way Phase1 LAT=1,PASS,2732
+directed,cache_directed 2-way Phase1 LAT=4,PASS,2732
+directed,cache_directed 2-way Phase1 LAT=10,PASS,2732
+directed,cache_directed 2-way Phase2 LAT=1,PASS,2732
+directed,cache_directed 2-way Phase2 LAT=4,PASS,2732
+directed,cache_directed 2-way Phase2 LAT=10,PASS,2732
+directed,cache_directed 4-way Phase1 LAT=1,PASS,2743
+directed,cache_directed 4-way Phase1 LAT=4,PASS,2743
+directed,cache_directed 4-way Phase1 LAT=10,PASS,2743
+directed,cache_directed 4-way Phase2 LAT=1,PASS,2743
+directed,cache_directed 4-way Phase2 LAT=4,PASS,2743
+directed,cache_directed 4-way Phase2 LAT=10,PASS,2743

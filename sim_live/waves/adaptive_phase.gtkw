@@ -1,0 +1,44 @@
+[dumpfile] "C:/Users/vpran/OneDrive/Desktop/cache_project/sim_live/waves/adaptive_phase.vcd"
+[timestart] 0
+[size] 1600 900
+[pos] -1 -1
+*-14.0 0
+[sst_width] 260
+[signals_width] 220
+@28
+tb_cache_system.clk
+@28
+tb_cache_system.rst_n
+@22
+tb_cache_system.cfg_policy[1:0]
+@22
+tb_cache_system.policy_active[1:0]
+@28
+tb_cache_system.cpu_valid
+@22
+tb_cache_system.cpu_addr[31:0]
+@28
+tb_cache_system.cpu_ready
+@28
+tb_cache_system.mem_valid
+@22
+tb_cache_system.mem_addr[31:0]
+-ADAPTIVE
+@24
+tb_cache_system.dut.g_adapt.u_adapt.win_cnt[10:0]
+@24
+tb_cache_system.dut.g_adapt.u_adapt.mis0[6:0]
+@24
+tb_cache_system.dut.g_adapt.u_adapt.mis1[6:0]
+@24
+tb_cache_system.dut.g_adapt.u_adapt.best[1:0]
+@24
+tb_cache_system.dut.g_adapt.u_adapt.conf[3:0]
+@24
+tb_cache_system.cnt_window[31:0]
+@24
+tb_cache_system.cnt_switch[31:0]
+@24
+tb_cache_system.cnt_hit[31:0]
+@24
+tb_cache_system.cnt_miss[31:0]

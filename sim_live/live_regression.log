@@ -1,0 +1,23 @@
+  [module] address_decoder          PASS  checks=12049
+  [module] hit_miss_logic           PASS  checks=6676
+  [module] arrays                   PASS  checks=34835
+  [module] random_replacement       PASS  checks=131078
+  [module] lru_controller           PASS  checks=96017
+  [module] plru_controller          PASS  checks=8011
+  [module] replacement_controller   PASS  checks=27
+  [module] perf_monitor             PASS  checks=11
+  [module] memory_interface         PASS  checks=41
+  [module] adaptive_controller      PASS  checks=40
+  [directed] cache_directed 2-way Phase1 LAT=1          PASS checks=2732
+  [directed] cache_directed 2-way Phase1 LAT=4          PASS checks=2732
+  [directed] cache_directed 2-way Phase1 LAT=10         PASS checks=2732
+  [directed] cache_directed 2-way Phase2 LAT=1          PASS checks=2732
+  [directed] cache_directed 2-way Phase2 LAT=4          PASS checks=2732
+  [directed] cache_directed 2-way Phase2 LAT=10         PASS checks=2732
+  [directed] cache_directed 4-way Phase1 LAT=1          PASS checks=2743
+  [directed] cache_directed 4-way Phase1 LAT=4          PASS checks=2743
+  [directed] cache_directed 4-way Phase1 LAT=10         PASS checks=2743
+  [directed] cache_directed 4-way Phase2 LAT=1          PASS checks=2743
+  [directed] cache_directed 4-way Phase2 LAT=4          PASS checks=2743
+  [directed] cache_directed 4-way Phase2 LAT=10         PASS checks=2743
+TOTAL 22 tests, 22 passed, 0 failed, 321635 checks

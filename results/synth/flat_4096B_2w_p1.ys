@@ -1,0 +1,7 @@
+read_verilog -defer -sv /home/claude/cache_project/rtl/address_decoder.v /home/claude/cache_project/rtl/valid_array.v /home/claude/cache_project/rtl/tag_array.v /home/claude/cache_project/rtl/data_array.v /home/claude/cache_project/rtl/hit_miss_logic.v /home/claude/cache_project/rtl/random_replacement.v /home/claude/cache_project/rtl/lru_controller.v /home/claude/cache_project/rtl/plru_controller.v /home/claude/cache_project/rtl/replacement_controller.v /home/claude/cache_project/rtl/sat_counter.v /home/claude/cache_project/rtl/performance_monitor.v /home/claude/cache_project/rtl/memory_interface.v /home/claude/cache_project/rtl/cache_controller.v /home/claude/cache_project/rtl/leader_set_map.v /home/claude/cache_project/rtl/adaptive_controller.v /home/claude/cache_project/rtl/cache_top.v
+hierarchy -check -top cache_top -chparam CACHE_BYTES 4096 -chparam WAYS 2 -chparam ADAPTIVE_EN 0
+synth -top cache_top -flatten
+dfflibmap -liberty /home/claude/cache_project/synth/lib/nangate45.lib
+abc -liberty /home/claude/cache_project/synth/lib/nangate45.lib -D 5000 -script +strash;&get,-n;&fraig,-x;&put;scorr;dc2;dretime;strash;&get,-n;&dch,-f;&nf,{D};&put;buffer;upsize,{D};dnsize,{D};stime,-p
+opt_clean -purge
+tee -o /home/claude/cache_project/results/synth/flat_4096B_2w_p1.stat stat -liberty /home/claude/cache_project/synth/lib/nangate45.lib -top cache_top

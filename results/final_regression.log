@@ -1,0 +1,231 @@
+  [module] address_decoder          PASS  checks=12049
+  [module] hit_miss_logic           PASS  checks=6676
+  [module] arrays                   PASS  checks=34835
+  [module] random_replacement       PASS  checks=131078
+  [module] lru_controller           PASS  checks=96017
+  [module] plru_controller          PASS  checks=8011
+  [module] replacement_controller   PASS  checks=27
+  [module] perf_monitor             PASS  checks=11
+  [module] memory_interface         PASS  checks=41
+  [module] adaptive_controller      PASS  checks=40
+  [directed] cache_directed 2-way Phase1 LAT=1          PASS checks=2732
+  [directed] cache_directed 2-way Phase1 LAT=4          PASS checks=2732
+  [directed] cache_directed 2-way Phase1 LAT=10         PASS checks=2732
+  [directed] cache_directed 2-way Phase2 LAT=1          PASS checks=2732
+  [directed] cache_directed 2-way Phase2 LAT=4          PASS checks=2732
+  [directed] cache_directed 2-way Phase2 LAT=10         PASS checks=2732
+  [directed] cache_directed 4-way Phase1 LAT=1          PASS checks=2743
+  [directed] cache_directed 4-way Phase1 LAT=4          PASS checks=2743
+  [directed] cache_directed 4-way Phase1 LAT=10         PASS checks=2743
+  [directed] cache_directed 4-way Phase2 LAT=1          PASS checks=2743
+  [directed] cache_directed 4-way Phase2 LAT=4          PASS checks=2743
+  [directed] cache_directed 4-way Phase2 LAT=10         PASS checks=2743
+  [system] 4096B 2-way seq      policy=0 LAT=6              PASS 
+  [system] 4096B 2-way seq      policy=1 LAT=10             PASS 
+  [system] 4096B 2-way seq      policy=2 LAT=1              PASS 
+  [system] 4096B 2-way seq      policy=3 LAT=4              PASS 
+  [system] 4096B 2-way rand     policy=0 LAT=6              PASS 
+  [system] 4096B 2-way rand     policy=1 LAT=10             PASS 
+  [system] 4096B 2-way rand     policy=2 LAT=1              PASS 
+  [system] 4096B 2-way rand     policy=3 LAT=4              PASS 
+  [system] 4096B 2-way stride   policy=0 LAT=6              PASS 
+  [system] 4096B 2-way stride   policy=1 LAT=10             PASS 
+  [system] 4096B 2-way stride   policy=2 LAT=1              PASS 
+  [system] 4096B 2-way stride   policy=3 LAT=4              PASS 
+  [system] 4096B 2-way conflict policy=0 LAT=6              PASS 
+  [system] 4096B 2-way conflict policy=1 LAT=10             PASS 
+  [system] 4096B 2-way conflict policy=2 LAT=1              PASS 
+  [system] 4096B 2-way conflict policy=3 LAT=4              PASS 
+  [system] 4096B 2-way loop     policy=0 LAT=6              PASS 
+  [system] 4096B 2-way loop     policy=1 LAT=10             PASS 
+  [system] 4096B 2-way loop     policy=2 LAT=1              PASS 
+  [system] 4096B 2-way loop     policy=3 LAT=4              PASS 
+  [system] 4096B 2-way scanhot  policy=0 LAT=6              PASS 
+  [system] 4096B 2-way scanhot  policy=1 LAT=10             PASS 
+  [system] 4096B 2-way scanhot  policy=2 LAT=1              PASS 
+  [system] 4096B 2-way scanhot  policy=3 LAT=4              PASS 
+  [system] 4096B 2-way matmul   policy=0 LAT=6              PASS 
+  [system] 4096B 2-way matmul   policy=1 LAT=10             PASS 
+  [system] 4096B 2-way matmul   policy=2 LAT=1              PASS 
+  [system] 4096B 2-way matmul   policy=3 LAT=4              PASS 
+  [system] 4096B 2-way fir      policy=0 LAT=6              PASS 
+  [system] 4096B 2-way fir      policy=1 LAT=10             PASS 
+  [system] 4096B 2-way fir      policy=2 LAT=1              PASS 
+  [system] 4096B 2-way fir      policy=3 LAT=4              PASS 
+  [system] 4096B 2-way image    policy=0 LAT=6              PASS 
+  [system] 4096B 2-way image    policy=1 LAT=10             PASS 
+  [system] 4096B 2-way image    policy=2 LAT=1              PASS 
+  [system] 4096B 2-way image    policy=3 LAT=4              PASS 
+  [system] 4096B 2-way phase    policy=0 LAT=6              PASS 
+  [system] 4096B 2-way phase    policy=1 LAT=10             PASS 
+  [system] 4096B 2-way phase    policy=2 LAT=1              PASS 
+  [system] 4096B 2-way phase    policy=3 LAT=4              PASS 
+  [system] 4096B 2-way stress   policy=0 LAT=6              PASS 
+  [system] 4096B 2-way stress   policy=1 LAT=10             PASS 
+  [system] 4096B 2-way stress   policy=2 LAT=1              PASS 
+  [system] 4096B 2-way stress   policy=3 LAT=4              PASS 
+  [system] 4096B 4-way seq      policy=0 LAT=6              PASS 
+  [system] 4096B 4-way seq      policy=1 LAT=10             PASS 
+  [system] 4096B 4-way seq      policy=2 LAT=1              PASS 
+  [system] 4096B 4-way seq      policy=3 LAT=4              PASS 
+  [system] 4096B 4-way rand     policy=0 LAT=6              PASS 
+  [system] 4096B 4-way rand     policy=1 LAT=10             PASS 
+  [system] 4096B 4-way rand     policy=2 LAT=1              PASS 
+  [system] 4096B 4-way rand     policy=3 LAT=4              PASS 
+  [system] 4096B 4-way stride   policy=0 LAT=6              PASS 
+  [system] 4096B 4-way stride   policy=1 LAT=10             PASS 
+  [system] 4096B 4-way stride   policy=2 LAT=1              PASS 
+  [system] 4096B 4-way stride   policy=3 LAT=4              PASS 
+  [system] 4096B 4-way conflict policy=0 LAT=6              PASS 
+  [system] 4096B 4-way conflict policy=1 LAT=10             PASS 
+  [system] 4096B 4-way conflict policy=2 LAT=1              PASS 
+  [system] 4096B 4-way conflict policy=3 LAT=4              PASS 
+  [system] 4096B 4-way loop     policy=0 LAT=6              PASS 
+  [system] 4096B 4-way loop     policy=1 LAT=10             PASS 
+  [system] 4096B 4-way loop     policy=2 LAT=1              PASS 
+  [system] 4096B 4-way loop     policy=3 LAT=4              PASS 
+  [system] 4096B 4-way scanhot  policy=0 LAT=6              PASS 
+  [system] 4096B 4-way scanhot  policy=1 LAT=10             PASS 
+  [system] 4096B 4-way scanhot  policy=2 LAT=1              PASS 
+  [system] 4096B 4-way scanhot  policy=3 LAT=4              PASS 
+  [system] 4096B 4-way matmul   policy=0 LAT=6              PASS 
+  [system] 4096B 4-way matmul   policy=1 LAT=10             PASS 
+  [system] 4096B 4-way matmul   policy=2 LAT=1              PASS 
+  [system] 4096B 4-way matmul   policy=3 LAT=4              PASS 
+  [system] 4096B 4-way fir      policy=0 LAT=6              PASS 
+  [system] 4096B 4-way fir      policy=1 LAT=10             PASS 
+  [system] 4096B 4-way fir      policy=2 LAT=1              PASS 
+  [system] 4096B 4-way fir      policy=3 LAT=4              PASS 
+  [system] 4096B 4-way image    policy=0 LAT=6              PASS 
+  [system] 4096B 4-way image    policy=1 LAT=10             PASS 
+  [system] 4096B 4-way image    policy=2 LAT=1              PASS 
+  [system] 4096B 4-way image    policy=3 LAT=4              PASS 
+  [system] 4096B 4-way phase    policy=0 LAT=6              PASS 
+  [system] 4096B 4-way phase    policy=1 LAT=10             PASS 
+  [system] 4096B 4-way phase    policy=2 LAT=1              PASS 
+  [system] 4096B 4-way phase    policy=3 LAT=4              PASS 
+  [system] 4096B 4-way stress   policy=0 LAT=6              PASS 
+  [system] 4096B 4-way stress   policy=1 LAT=10             PASS 
+  [system] 4096B 4-way stress   policy=2 LAT=1              PASS 
+  [system] 4096B 4-way stress   policy=3 LAT=4              PASS 
+  [system] 1024B 2-way rand     policy=0 LAT=6              PASS 
+  [system] 1024B 2-way rand     policy=1 LAT=10             PASS 
+  [system] 1024B 2-way rand     policy=2 LAT=1              PASS 
+  [system] 1024B 2-way rand     policy=3 LAT=4              PASS 
+  [system] 1024B 2-way conflict policy=0 LAT=6              PASS 
+  [system] 1024B 2-way conflict policy=1 LAT=10             PASS 
+  [system] 1024B 2-way conflict policy=2 LAT=1              PASS 
+  [system] 1024B 2-way conflict policy=3 LAT=4              PASS 
+  [system] 1024B 2-way phase    policy=0 LAT=6              PASS 
+  [system] 1024B 2-way phase    policy=1 LAT=10             PASS 
+  [system] 1024B 2-way phase    policy=2 LAT=1              PASS 
+  [system] 1024B 2-way phase    policy=3 LAT=4              PASS 
+  [system] 1024B 2-way stress   policy=0 LAT=6              PASS 
+  [system] 1024B 2-way stress   policy=1 LAT=10             PASS 
+  [system] 1024B 2-way stress   policy=2 LAT=1              PASS 
+  [system] 1024B 2-way stress   policy=3 LAT=4              PASS 
+  [system] 2048B 4-way rand     policy=0 LAT=6              PASS 
+  [system] 2048B 4-way rand     policy=1 LAT=10             PASS 
+  [system] 2048B 4-way rand     policy=2 LAT=1              PASS 
+  [system] 2048B 4-way rand     policy=3 LAT=4              PASS 
+  [system] 2048B 4-way conflict policy=0 LAT=6              PASS 
+  [system] 2048B 4-way conflict policy=1 LAT=10             PASS 
+  [system] 2048B 4-way conflict policy=2 LAT=1              PASS 
+  [system] 2048B 4-way conflict policy=3 LAT=4              PASS 
+  [system] 2048B 4-way phase    policy=0 LAT=6              PASS 
+  [system] 2048B 4-way phase    policy=1 LAT=10             PASS 
+  [system] 2048B 4-way phase    policy=2 LAT=1              PASS 
+  [system] 2048B 4-way phase    policy=3 LAT=4              PASS 
+  [system] 2048B 4-way stress   policy=0 LAT=6              PASS 
+  [system] 2048B 4-way stress   policy=1 LAT=10             PASS 
+  [system] 2048B 4-way stress   policy=2 LAT=1              PASS 
+  [system] 2048B 4-way stress   policy=3 LAT=4              PASS 
+  [system] 8192B 2-way rand     policy=0 LAT=6              PASS 
+  [system] 8192B 2-way rand     policy=1 LAT=10             PASS 
+  [system] 8192B 2-way rand     policy=2 LAT=1              PASS 
+  [system] 8192B 2-way rand     policy=3 LAT=4              PASS 
+  [system] 8192B 2-way conflict policy=0 LAT=6              PASS 
+  [system] 8192B 2-way conflict policy=1 LAT=10             PASS 
+  [system] 8192B 2-way conflict policy=2 LAT=1              PASS 
+  [system] 8192B 2-way conflict policy=3 LAT=4              PASS 
+  [system] 8192B 2-way phase    policy=0 LAT=6              PASS 
+  [system] 8192B 2-way phase    policy=1 LAT=10             PASS 
+  [system] 8192B 2-way phase    policy=2 LAT=1              PASS 
+  [system] 8192B 2-way phase    policy=3 LAT=4              PASS 
+  [system] 8192B 2-way stress   policy=0 LAT=6              PASS 
+  [system] 8192B 2-way stress   policy=1 LAT=10             PASS 
+  [system] 8192B 2-way stress   policy=2 LAT=1              PASS 
+  [system] 8192B 2-way stress   policy=3 LAT=4              PASS 
+  [system] 16384B 4-way rand     policy=0 LAT=6             PASS 
+  [system] 16384B 4-way rand     policy=1 LAT=10            PASS 
+  [system] 16384B 4-way rand     policy=2 LAT=1             PASS 
+  [system] 16384B 4-way rand     policy=3 LAT=4             PASS 
+  [system] 16384B 4-way conflict policy=0 LAT=6             PASS 
+  [system] 16384B 4-way conflict policy=1 LAT=10            PASS 
+  [system] 16384B 4-way conflict policy=2 LAT=1             PASS 
+  [system] 16384B 4-way conflict policy=3 LAT=4             PASS 
+  [system] 16384B 4-way phase    policy=0 LAT=6             PASS 
+  [system] 16384B 4-way phase    policy=1 LAT=10            PASS 
+  [system] 16384B 4-way phase    policy=2 LAT=1             PASS 
+  [system] 16384B 4-way phase    policy=3 LAT=4             PASS 
+  [system] 16384B 4-way stress   policy=0 LAT=6             PASS 
+  [system] 16384B 4-way stress   policy=1 LAT=10            PASS 
+  [system] 16384B 4-way stress   policy=2 LAT=1             PASS 
+  [system] 16384B 4-way stress   policy=3 LAT=4             PASS 
+  [system] 1024B 4-way rand     policy=0 LAT=6              PASS 
+  [system] 1024B 4-way rand     policy=1 LAT=10             PASS 
+  [system] 1024B 4-way rand     policy=2 LAT=1              PASS 
+  [system] 1024B 4-way rand     policy=3 LAT=4              PASS 
+  [system] 1024B 4-way conflict policy=0 LAT=6              PASS 
+  [system] 1024B 4-way conflict policy=1 LAT=10             PASS 
+  [system] 1024B 4-way conflict policy=2 LAT=1              PASS 
+  [system] 1024B 4-way conflict policy=3 LAT=4              PASS 
+  [system] 1024B 4-way phase    policy=0 LAT=6              PASS 
+  [system] 1024B 4-way phase    policy=1 LAT=10             PASS 
+  [system] 1024B 4-way phase    policy=2 LAT=1              PASS 
+  [system] 1024B 4-way phase    policy=3 LAT=4              PASS 
+  [system] 1024B 4-way stress   policy=0 LAT=6              PASS 
+  [system] 1024B 4-way stress   policy=1 LAT=10             PASS 
+  [system] 1024B 4-way stress   policy=2 LAT=1              PASS 
+  [system] 1024B 4-way stress   policy=3 LAT=4              PASS 
+  [equiv ] Phase1-build 4096B 2-way stress   policy=0 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 2-way stress   policy=1 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 2-way stress   policy=2 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 2-way stress   policy=3 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 2-way phase    policy=0 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 2-way phase    policy=1 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 2-way phase    policy=2 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 2-way phase    policy=3 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 2-way scanhot  policy=0 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 2-way scanhot  policy=1 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 2-way scanhot  policy=2 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 2-way scanhot  policy=3 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 4-way stress   policy=0 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 4-way stress   policy=1 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 4-way stress   policy=2 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 4-way stress   policy=3 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 4-way phase    policy=0 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 4-way phase    policy=1 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 4-way phase    policy=2 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 4-way phase    policy=3 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 4-way scanhot  policy=0 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 4-way scanhot  policy=1 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 4-way scanhot  policy=2 (== Phase2 build for fixed policies) PASS 
+  [equiv ] Phase1-build 4096B 4-way scanhot  policy=3 (== Phase2 build for fixed policies) PASS 
+  [robust] gaps (GAP=3) 4096B 2-way stress policy=1           PASS 
+  [robust] gaps (GAP=3) 4096B 2-way stress policy=3           PASS 
+  [robust] gaps (random gaps) 4096B 2-way stress policy=1     PASS 
+  [robust] gaps (random gaps) 4096B 2-way stress policy=3     PASS 
+  system regression time: 164 s
+# Regression summary (generated by sim/run_regression.py)
+
+| Category | Tests | Passed | Failed | Checks / requests |
+|---|---:|---:|---:|---:|
+| module | 10 | 10 | 0 | 288785 |
+| directed | 12 | 12 | 0 | 32850 |
+| system | 168 | 168 | 0 | 3705520 |
+| equivalence | 24 | 24 | 0 | 0 |
+| robustness | 4 | 4 | 0 | 0 |
+
+**Total: 218 tests, 218 passed, 0 failed**
+

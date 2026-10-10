@@ -1,0 +1,5 @@
+WARNING: ../tb/tb_cache_system.v:98: $readmemh(phase_4096_2.hex): Not enough words in the file for the requested range [0:65535].
+VCD info: dumpfile waves/adaptive_phase.vcd opened for output.
+STAT access=24000 read=24000 write=0 hit=8278 miss=15722 refill=15722 replace=15594 stall=518826 memrd=125776 memwr=0 switch=1 window=11 cycles=542826 active=0
+RESULT PASS errors=0
+../tb/tb_cache_system.v:179: $finish called at 5428365000 (1ps)

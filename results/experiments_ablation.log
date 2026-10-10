@@ -1,0 +1,3 @@
+  ablation 2-way done (113s) all_match=True
+  ablation 4-way done (239s) all_match=True
+wrote /home/claude/cache_project/results/ablation_results.csv 138 rows

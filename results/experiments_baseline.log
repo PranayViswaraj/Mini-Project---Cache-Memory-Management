@@ -1,0 +1,11 @@
+  baseline  1024B 2-way done (27s)  rows=30  all_match=True
+  baseline  1024B 4-way done (62s)  rows=70  all_match=True
+  baseline  2048B 2-way done (88s)  rows=100  all_match=True
+  baseline  2048B 4-way done (125s)  rows=140  all_match=True
+  baseline  4096B 2-way done (149s)  rows=170  all_match=True
+  baseline  4096B 4-way done (185s)  rows=210  all_match=True
+  baseline  8192B 2-way done (209s)  rows=240  all_match=True
+  baseline  8192B 4-way done (247s)  rows=280  all_match=True
+  baseline 16384B 2-way done (270s)  rows=310  all_match=True
+  baseline 16384B 4-way done (309s)  rows=350  all_match=True
+wrote /home/claude/cache_project/results/baseline_results.csv 350 rows
